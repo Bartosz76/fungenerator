@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html lang="en" xmlns:th="http://www.w3.org/1999/xhtml">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+
+<div id="header">
+<div th:text="'You have been blessed with this joke: ' + ${generatedJoke}"/>
+</div>
+
+<form method="post">
+<div class="button">
+<a class="menu-button" href="/chuck">More?</a>
+</div>
+</form>
+</body>
+</html>
