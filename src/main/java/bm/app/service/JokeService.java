@@ -15,7 +15,7 @@ public class JokeService {
 // }
 
     public String generateAJoke() {
-        int a = (int) (Math.random() * 9) + 1;
+        int a = (int) (Math.random() * 19) + 1;
         Map<Integer, String> jokesList = new HashMap<>();
         jokesList.put(1, "Chuck Norris can unit test entire applications with a single assert.");
         jokesList.put(2, "Chuck Norris can slam a revolving door.");
@@ -27,6 +27,16 @@ public class JokeService {
         jokesList.put(8, "Chuck Norris invented black. In fact, he invented the entire spectrum of visible light. Except pink. Tom Cruise invented pink.");
         jokesList.put(9, "Chuck Norris's first program was kill -9.");
         jokesList.put(10, "Chuck Norris knows everything there is to know - Except for the definition of mercy.");
+        jokesList.put(11, "Chuck Norris knows the value of NULL, and he can sort by it too.");
+        jokesList.put(12,"Chuck Norris played Russian Roulette with a fully loaded gun and won");
+        jokesList.put(13, "How to learn any new programming concept? Change stuff and see what happens.");
+        jokesList.put(14, "A programmer is someone who fixes a problem you don't know you have in a way you do not understand");
+        jokesList.put(15, "What is the object-oriented way to become wealthy? Inheritance.");
+        jokesList.put(16, "Why did a programmer quit his job? He didn't get arrays.");
+        jokesList.put(17, "Why do Java programmers have to wear glasses? Because they do not C#.");
+        jokesList.put(18, "Real programmers count from 0");
+        jokesList.put(19, "I'd like to make the world a better place, but they won't give me the source code.");
+        jokesList.put(20, "To be fair, being alive is kind of a joke in and of itself.");
 
         return jokesList.get(a);
 
