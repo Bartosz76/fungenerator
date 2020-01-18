@@ -15,7 +15,7 @@ public class JokeService {
 // }
 
     public String generateAJoke() {
-        int a = (int) (Math.random() * 19) + 1;
+        int a = (int) (Math.random() * 39) + 1;
         Map<Integer, String> jokesList = new HashMap<>();
         jokesList.put(1, "Chuck Norris can unit test entire applications with a single assert.");
         jokesList.put(2, "Chuck Norris can slam a revolving door.");
@@ -37,6 +37,25 @@ public class JokeService {
         jokesList.put(18, "Real programmers count from 0");
         jokesList.put(19, "I'd like to make the world a better place, but they won't give me the source code.");
         jokesList.put(20, "To be fair, being alive is kind of a joke in and of itself.");
+        jokesList.put(22,"When I see lovers' names carved in a tree, I don't think it's sweet. I just think it's surprising how many people bring a knife on a date.");
+        jokesList.put(23,"What do you get when you wake up on a workday and realize you ran out of coffee? A depresso.");
+        jokesList.put(24,"Why did the bee marry? He’s finally found his honey.");
+        jokesList.put(25,"Why does it suck to be a penguin? Because even when you get angry, you still look cute.");
+        jokesList.put(26,"It is important to make breaks between individual exercises. I personally stick to breaks of about 3-4 years.");
+        jokesList.put(27,"Sometimes I drink water - just to surprise my liver.");
+        jokesList.put(28,"Of course I have a talent. I'm really good in bed. Sometimes I sleep more than 9 hours in one go.");
+        jokesList.put(29,"First rule of Sundays: If you can’t reach it from your couch, you don’t need it.");
+        jokesList.put(30,"According to my mirror I am pregnant. The father is Nutella.");
+        jokesList.put(31,"My relationship is like an iPad. I don't have an iPad.");
+        jokesList.put(32,"I am nobody. Nobody is perfect. I am perfect.");
+        jokesList.put(33,"As long as cocoa beans grow on trees, chocolate is fruit to me.");
+        jokesList.put(34,"Somebody said today that I'm lazy. I nearly answered him.");
+        jokesList.put(35,"I’m not lazy. I’m just naturally a very relaxed person.");
+        jokesList.put(36,"I’m not saying I’m Batman, but so far nobody has seen me and Batman together in the same room.");
+        jokesList.put(37,"I’m standing outside. In other words, I’m outstanding.");
+        jokesList.put(38,"Stressed is just desserts spelled backwards.");
+        jokesList.put(39,"If you ever see me running, run like hell too. I’m far too lazy to be running without a good reason.");
+        jokesList.put(40,"I’m all for irony, but the phrase “Good morning” seems to be going a bit too far.");
 
         return jokesList.get(a);
 
