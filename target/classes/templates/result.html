@@ -3,11 +3,13 @@
 <head>
     <meta charset="UTF-8">
     <title>Title</title>
+    <link rel="stylesheet" href="result.css">
 </head>
 <body>
 
-<div id="header">
-<div th:text="'You have been blessed with this joke: ' + ${generatedJoke}"/>
+<div id="header">You have been blessed with this joke:</div>
+<div class="subheader">
+<div th:text="${generatedJoke}"/>
 </div>
 
 <form method="post">

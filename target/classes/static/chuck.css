@@ -1,0 +1,22 @@
+.button{
+    padding: 0;
+    border: none;
+    background: none;
+    border: 2px solid transparent;
+    background: blue;
+    color: pink;
+    border-radius: 10px;
+    min-width: 100px;
+    min-height: 60px;
+    display; flex;
+    justify-content: top;
+    align-items: center;
+    transition: all 1s;
+    padding: 10px 20px;
+}
+
+.button:hover{
+    border-color: pink;
+    background: pink;
+    color: blue;
+}
